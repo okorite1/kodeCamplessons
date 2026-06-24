@@ -5,7 +5,7 @@ class AppValidators {
     }
 
     // Email
-    if (value.contains('@') && value.contains('.') && value.length >= 5) {
+    if (value.contains('@') && value.contains('.') && value.length >= 6) {
       return null;
     }
 
