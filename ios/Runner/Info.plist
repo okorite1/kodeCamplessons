@@ -7,7 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Kdtaskfive</string>
+=======
+	<string>Kode Camp Task Four</string>
+>>>>>>> 0fe8f559c5dc87b1c61ad700ff377bf3b0c2aaa7
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +19,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>kdtaskfive</string>
+=======
+	<string>kode_camp_task_four</string>
+>>>>>>> 0fe8f559c5dc87b1c61ad700ff377bf3b0c2aaa7
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

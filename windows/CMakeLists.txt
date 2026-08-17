@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(kdtaskfive LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "kdtaskfive")
+=======
+project(kode_camp_task_four LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "kode_camp_task_four")
+>>>>>>> 0fe8f559c5dc87b1c61ad700ff377bf3b0c2aaa7
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

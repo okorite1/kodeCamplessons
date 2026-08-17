@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"kdtaskfive", origin, size)) {
+=======
+  if (!window.Create(L"kode_camp_task_four", origin, size)) {
+>>>>>>> 0fe8f559c5dc87b1c61ad700ff377bf3b0c2aaa7
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

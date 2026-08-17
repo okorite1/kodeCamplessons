@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "kdtaskfive",
     "short_name": "kdtaskfive",
+=======
+    "name": "kode_camp_task_four",
+    "short_name": "kode_camp_task_four",
+>>>>>>> 0fe8f559c5dc87b1c61ad700ff377bf3b0c2aaa7
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
