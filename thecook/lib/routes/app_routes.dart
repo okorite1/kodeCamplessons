@@ -7,6 +7,7 @@ abstract class Routes {
   static const String home = _Paths.home;
   static const String auth = _Paths.auth;
   static const String onboarding = _Paths.onboarding;
+  static const String register = _Paths.register;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const String home = '/home';
   static const String auth = '/auth';
   static const String onboarding = '/onboarding';
+  static const String register = '/register';
 }

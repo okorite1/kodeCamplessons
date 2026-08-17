@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controller/auth_controller.dart';
-import 'package:thecook/app/modules/auth/app_validator/appvalidators.dart';
-import 'package:thecook/app/modules/auth/app_validator/customtextfield.dart';
+import 'package:thecook/app/modules/auth_login/app_validator/appvalidators.dart';
+import 'package:thecook/app/modules/auth_login/app_validator/customtextfield.dart';
 
 class AuthView extends GetView<AuthController> {
   const AuthView({super.key});
@@ -43,6 +43,8 @@ class AuthView extends GetView<AuthController> {
                   icon: Icons.email,
                   validator: AppValidators.validateEmail,
                   keyboardType: TextInputType.emailAddress,
+                  hintText: '',
+                  obscureText: false,
                 ),
                 const SizedBox(height: 16),
 
@@ -54,6 +56,7 @@ class AuthView extends GetView<AuthController> {
                     icon: Icons.lock,
                     validator: AppValidators.validatePassword,
                     obscureText: controller.obscurePassword.value,
+                    hintText: '',
                     suffixIcon: IconButton(
                       onPressed: controller.togglePassword,
                       icon: Icon(
@@ -66,6 +69,22 @@ class AuthView extends GetView<AuthController> {
                 ),
                 const SizedBox(height: 24),
 
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('don\'t have an account?'),
+                    SizedBox(width: 5),
+                    TextButton(
+                      onPressed: () {
+                        Get.toNamed('/register');
+                      },
+                      child: Text(
+                        'Register',
+                        style: TextStyle(color: Colors.teal[800]),
+                      ),
+                    ),
+                  ],
+                ),
                 // Login Button
                 Obx(
                   () => SizedBox(
